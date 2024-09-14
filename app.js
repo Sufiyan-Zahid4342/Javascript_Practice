@@ -1,14 +1,14 @@
 // var head= document.querySelector("#head");
 // head.innerHTML="hello html";
 // function on(){
-   
+
 
 //     if(head.innerHTML==="Off"){
 //     head.innerHTML="On"}
 //         else{
 //            head.innerHTML="Off";
 //         }
-    
+
 // }
 // var num1=document.querySelector("#num1");
 //  var num2=document.querySelector("#num2");
@@ -17,7 +17,7 @@
 // {
 //     var total=num1+num2;
 //    return total
-    
+
 // }
 
 
@@ -170,3 +170,59 @@
 //     console.log(array[i]);
 // }
 // console.log(array.push("heald"));
+
+
+// let num=document.querySelector("#num");
+// let print=document.querySelector("#print");
+// for (let i=0;i<10;1++){
+//     console.log(num+ "*"+i+"="+num*i);
+// }
+
+// function change(){
+
+//     print.innerHTML=num+ "*"+i+"="+num*i;
+// }
+
+
+// TABLE PRINT
+
+// let num = document.querySelector("#num");
+// let print = document.querySelector("#print");
+
+
+
+// function change() {
+//     let numValue = num.value;
+//     num.value="";
+//     if (numValue === "") {
+//         print.innerHTML = "Please enter a number";
+//     }
+//     else {
+      
+//         // num.value = "";
+//         let result = "";
+//         for (let i = 0; i <= 10; i++) {
+//             result += numValue + " * " + i + " = " + (numValue * i) + "<br>";
+//         }
+//         print.innerHTML = result;
+//     }
+// }
+
+
+// CHAPTER #01
+// alert("Hello JavaScript")
+//  alert("Error! Please Enter A valid Password")
+// var name=document.querySelector("#name");
+// var nameValue=name.value;
+
+// alert(`Welcom to JS Land .... \n happy Coding\n ${nameValue}` )
+// var Name=document.querySelector("#name");
+// var nameValue=Name.value;
+// alert("Welcom to JS Land .... \n happy Coding"+nameValue);
+
+// CHAPER 2
+
+// var userName="Abc";
+// console.log(userName);
+
+
