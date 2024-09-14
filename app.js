@@ -225,4 +225,104 @@
 // var userName="Abc";
 // console.log(userName);
 
+// let userName="hello";
+// let nameValue = prompt("Enter your name ");
+// console.log(nameValue)
+// console.log(userName);
 
+// let userName="hello";
+// let nameValue = prompt("Enter your name ");
+// console.log(nameValue);
+// console.log(userName);
+//  let newstr=alert(nameValue,userName);
+
+// console.log(newstr);
+
+// Collect student's biodata
+// let studentName = prompt("Enter the student's name:");
+// let studentAge = prompt("Enter the student's age:");
+// let studentGrade = prompt("Enter the student's grade:");
+// let studentSchool = prompt("Enter the student's school:");
+// let studentHobbies = prompt("Enter the student's hobbies:");
+
+// // Display the collected biodata in alert boxes
+// alert("Student's Name: " + studentName +"\nStudent's Age: " + studentAge+"\nStudent's Grade: " + studentGrade+"\nStudent's School: " + studentSchool);
+// alert("Student's Age: " + studentAge);
+// alert("Student's Grade: " + studentGrade);
+// alert("Student's School: " + studentSchool);
+// alert("Student's Hobbies: " + studentHobbies);
+
+// CHAPTER 3
+// let birthYear = 2002;
+// document.querySelector('#birthMessage').innerText = `My birth year is ${birthYear}`;
+
+// let visitorName = "John Doe";      
+// let productTitle = "T-shirt";      
+// let quantity = 5;                  
+
+
+// document.querySelector('#orderMessage').innerText = `${visitorName} ordered ${quantity} ${productTitle}(s) on XYZ Clothing store.`;
+
+
+// CHAPTER 4
+// let variable1 = "Value1", variable2 = "Value2", variable3 = "Value3";
+// let number;
+
+//         // b. Show the value of variable in your browser
+//         document.querySelector('#output').innerText = "Value after variable declaration is: " + number;
+
+//         // c. Initialize the variable with some number
+//         number = 5;
+
+//         // d. Show the value of variable in your browser
+//         document.querySelector('#output').innerText += "\nInitial value: " + number;
+
+//         // e. Increment the variable
+//         number++;
+
+//         // f. Show the value of variable in your browser
+//         document.querySelector('#output').innerText += "\nValue after increment is: " + number;
+
+//         // g. Add 7 to the variable
+//         number += 7;
+
+//         // h. Show the value of variable in your browser
+//         document.querySelector('#output').innerText += "\nValue after addition is: " + number;
+
+//         // i. Decrement the variable
+//         number--;
+
+//         // j. Show the value of variable in your browser
+//         document.querySelector('#output').innerText += "\nValue after decrement is: " + number;
+
+//         // k. Show the remainder after dividing the variable’s value by 3
+//         let remainder = number % 3;
+
+//         // l. Output the remainder
+//         document.querySelector('#output').innerText += "\nThe remainder is: " + remainder;
+
+// const ticketPrice = 600; 
+// const numberOfTickets = 5;
+// const totalCost = ticketPrice * numberOfTickets;
+// document.querySelector('#output').innerText = `The cost of buying ${numberOfTickets} movie tickets is ${totalCost} PKR.`;
+
+
+// let celsius = 25; 
+
+// let fahrenheit = (celsius * 9/5) + 32;
+
+// document.querySelector('#output').innerText = `${celsius}°C is ${fahrenheit}°F`;
+
+// fahrenheit = 77;  
+
+// celsius = (fahrenheit - 32) * 5/9;
+// document.querySelector('#fahrenheit').innerText = `${fahrenheit}°F is ${celsius.toFixed(2)}°C`;
+
+
+let radius = 10; 
+
+const pi = 3.142;
+let circumference = 2 * pi * radius;
+document.querySelector('#circumferenceOutput').innerText = `The circumference is ${circumference}`;
+let area = pi * radius * radius;
+document.querySelector('#areaOutput').innerText = `The area is ${area}`;
