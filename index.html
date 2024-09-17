@@ -3,19 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <style>
         /* .Head{
             background-color: #f2f2f2;
             text-align: center;
             justify-content: center;
         } */
-        .farm{
+        /* .farm{
             display: flex;
             justify-content: space-around;
             text-align: center;
             align-items: center;
+        } */
+        body{
+            background-color: rgb(47, 19, 83);
         }
+        h1{
+            
+            text-align: center;
+            color: beige;
+            box-shadow: 10px 10px 10px rgb(12, 194, 94);
+            
+        }
+       input{
+            color: rgb(156, 23, 23);
+            border-color: #fff;
+/* margin-left: 30%; */
+border-radius: 10px;
+padding: 10px;
+width: 300px;
+box-shadow: 8px 8px 10px rgb(12, 10, 7);
+        }
+        input::placeholder {
+  color: rgb(156, 23, 23); /* Change this to the color you prefer */
+}
+button{border-radius: 10px;
+            font-weight: bolder;
+padding: 10px;
+width: 100px;
+background-color: red;
+color: #fff;    
+border-color: yellow;
+box-shadow: 8px 8px 10px rgb(253, 184, 36);
+}
+button:hover{
+    border-color: red;
+    background-color: yellow;color: black;
+    box-shadow: 8px 8px 10px rgb(250, 22, 6);
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(248, 249, 255);
+    border-radius: 20px;padding: 15px;
+    color: #000;         
+    background: linear-gradient(45deg, rgb(12, 194, 94), rgb(255, 0, 150));  
+     box-shadow: 10px 10px 10px rgb(12, 194, 94);
+
+}
+div{
+    justify-content: center;
+    text-align: center;
+}
+/* li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(12, 194, 94, 0.7), rgba(255, 0, 150, 0.7)); 
+  z-index: -1; 
+  filter: blur(10px);  
+} */
     </style>
 </head>
 <body>
@@ -51,10 +113,19 @@
 <div id="print">
 
 </div> -->
-<h1 id="circumferenceOutput">Hello Javascript</h1>
-<h1 id="areaOutput">My Name is Sabir</h1>
+<!-- <h1 id="circumferenceOutput">Hello Javascript</h1>
+<h1 id="areaOutput">My Name is Sabir</h1> -->
 
 
+
+<!-- todo app -->
+<div>
+<h1>TODO APP</h1><br/>
+<input type="text" placeholder="Enter a value" id="input">
+<button onclick="add()">Add</button><br/><br/>
+<h1 >Enter Item Here</h1>
+<h2 id="print" ></h2><br/>
+</div>
     <script src="app.js"></script>
 </body>
 </html>

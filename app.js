@@ -319,10 +319,60 @@
 // document.querySelector('#fahrenheit').innerText = `${fahrenheit}°F is ${celsius.toFixed(2)}°C`;
 
 
-let radius = 10; 
+// let radius = 10; 
 
-const pi = 3.142;
-let circumference = 2 * pi * radius;
-document.querySelector('#circumferenceOutput').innerText = `The circumference is ${circumference}`;
-let area = pi * radius * radius;
-document.querySelector('#areaOutput').innerText = `The area is ${area}`;
+// const pi = 3.142;
+// let circumference = 2 * pi * radius;
+// document.querySelector('#circumferenceOutput').innerText = `The circumference is ${circumference}`;
+// let area = pi * radius * radius;
+// document.querySelector('#areaOutput').innerText = `The area is ${area}`;
+
+
+
+// todo ap
+
+
+function rerender()
+{
+    print.innerHTML='';
+    for (var i=0;i<array.length;i++){
+        print.innerHTML +=`<li>${array[i]}
+         <button onclick="deletetodo(${i})"><i class="fa-solid fa-trash"></i></button>
+         <button onclick="edittodo(${i})"><i class="fa-solid fa-pen-to-square"></i></button></li>`
+    }
+}
+var input =document.querySelector("#input");
+var print=document.querySelector("#print");
+var array=[];
+
+
+function add(){
+    // inputOne=input.value;
+// for (var i=0;i<array.length;i++){
+   array.push(input.value);
+   rerender();
+   input.value='';
+    // var value=array.push(input.value);
+    // print.innerHTML=value;
+    
+// }
+}
+function deletetodo(index) {
+    array.splice(index, 1);
+    rerender()
+}
+
+function edittodo(index) {
+    var updatedVal = prompt('enter updated value');
+    array.splice(index , 1 , updatedVal);
+    rerender()
+}
+// var array = []; // Initialize the array
+
+// function add() {
+//     var inputOne = document.getElementById('input').value; // Get the input value
+//     array.push(inputOne); // Add the input value to the array
+
+//     document.getElementById('print').innerHTML = array.join(', '); // Display the updated array
+// }
+
